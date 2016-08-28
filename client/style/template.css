@@ -1,0 +1,32 @@
+.templateContainer {
+    display: inline-block;
+    overflow: auto;
+    height: 92vh;
+    width: 300px;
+}
+
+.divTicketContainer {
+    height: 100px;
+    /*width: 300px;*/
+    border-radius: 1px; 
+    position: relative; 
+    background-color: #e67e22;  
+}
+
+.divTicketContainer:nth-child(odd){
+    background-color: #f39c12;
+}
+
+.iptTicketContent {
+    width: 100%;
+    background-color: #f1c40f;
+    border: none;
+}
+
+.btnAddTicket {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    border: none;
+    background-color: #F39C12;
+}
